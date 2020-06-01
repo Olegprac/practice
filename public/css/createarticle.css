@@ -1,0 +1,80 @@
+.main-cont {
+	position: fixed;
+	top: 70px;
+	left: 0px;
+	height: calc(100% - 90px);
+	width: calc(100% - 20px);
+	padding: 10px;
+	background-color: lightgray;
+}
+
+.cr-form {
+	height: 712px;
+	width: 653px;
+	margin: calc((100% - 700px)/16) calc((100% - 653px)/2);
+	background-color: white;
+	border: 1px solid black;
+}
+
+.f-instr {
+	height: 30px;
+	width: calc(100% - 20px);
+	padding: 5px 10px;
+	font-size: 24px;
+}
+
+.t-i {
+	height: 30px;
+	width: calc(100% - 32px);
+	padding: 2px 5px;
+	margin: 5px 10px;
+	border: 1px solid black;
+	font-size: 20px;
+}
+
+.t-i:hover {
+	background-color: lightblue;
+}
+
+.m-i {
+	height: 400px;
+	width: calc(100% - 32px);
+	padding: 2px 5px;
+	margin: 5px 10px;
+	border: 1px solid black;
+	font-size: 20px;
+	resize: none;
+}
+
+.m-i:hover {
+	background-color: lightblue;
+}
+
+.i-i {
+	margin: 5px 10px;
+	font-size: 20px;
+}
+
+.s-i {
+	height: 40px;
+	width: 34%;
+	margin: 10px 33%;
+	border: 1px solid black;
+	outline: none;
+	font-size: 20px;
+}
+
+.s-i:hover {
+	background-color: beige;
+	cursor: pointer;
+}
+
+.err-hint {
+	position: relative;
+	top: 0px;
+	height: 16px;
+	width: calc(100% - 20px);
+	padding: 5px 10px;
+	background-color: beige;
+	color: red;
+}

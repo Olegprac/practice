@@ -1,0 +1,50 @@
+.nav-cont {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 50px;
+	width: calc(100% - 20px);
+	padding: 10px;
+	background-color: skyblue;
+	border-bottom: 1px solid black;
+}
+
+.log-btn {
+	height: 30px;
+	width: auto;
+	padding: 10px 20px;
+	margin-left: 20px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 28px;
+	float: right;
+	cursor: pointer;
+}
+
+.log-btn:hover {
+	background-color: beige;
+}
+
+.nav-btn-1 {
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	float: right;
+}
+
+.nav-btn-1:hover {
+	background-color: beige;
+}
+
+.i-full {
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	color: black;
+}

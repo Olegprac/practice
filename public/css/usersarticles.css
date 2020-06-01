@@ -1,0 +1,92 @@
+.main-cont {
+	position: fixed;
+	top: 70px;
+	left: 0px;
+	height: calc(100% - 90px);
+	width: calc(100% - 20px);
+	padding: 10px;
+	background-color: lightgray;
+	overflow-x: scroll;
+}
+
+.p-cont {
+	height: 150px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+
+.img-cont {
+	height: 100%;
+	width: 300px;
+	border-right: 1px solid black;
+	float: left;
+}
+
+.descr-cont {
+	height: 100%;
+	width: calc(100% - 351px);
+	float: left;
+}
+
+.title {
+	height: 30px;
+	width: calc(100% - 15px);
+	padding: 5px;
+	border-bottom: 1px solid black;
+	font-size: 24px;
+	float: left;
+	overflow: hidden;
+}
+
+.title:hover {
+	color: red;
+}
+
+.maintxt {
+	height: calc(100% - 51px);
+	width: calc(100% - 15px);
+	padding: 5px;
+	font-size: 20px;
+	float: left;
+	overflow: hidden;
+}
+
+.i-full {
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	color: black;
+}
+
+.no-p {
+	height: 50px;
+	width: 800px;
+	padding: calc((100% - 50px)/5) calc((100% - 650px)/2);
+	font-size: 50px;
+}
+
+.mng-cont {
+	height: calc(100% - 20px);
+	width: 39px;
+	padding: 10px 5px;
+	border-left: 1px solid black;
+	float: right;
+}
+
+.mng-btn {
+	height: 40px;
+	width: 39px;
+	margin: 16px 0px;
+}
+
+.e:hover {
+	background-color: lightgreen;
+}
+
+.d:hover {
+	background-color: crimson;
+}

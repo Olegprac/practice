@@ -1,0 +1,72 @@
+.main-cont {
+	position: fixed;
+	top: 70px;
+	left: 0px;
+	height: calc(100% - 90px);
+	width: calc(100% - 20px);
+	padding: 10px;
+	background-color: lightgray;
+	overflow-x: scroll;
+}
+
+.p-cont {
+	height: auto;
+	width: 50%;
+	margin: 0% 25%;
+	border: 1px solid black;
+	background-color: white;
+}
+
+.title {
+	height: auto;
+	min-height: 30px;
+	width: calc(100% - 15px);
+	padding: 5px;
+	border-bottom: 1px solid black;
+	font-size: 24px;
+}
+
+.img-cont {
+	height: auto;
+	width: auto;
+	max-width: calc(100% - 10px);
+	margin: 5px 5px;
+}
+
+.p-img {
+	width: inherit;
+}
+
+.maintxt {
+	height: auto;
+	width: calc(100% - 15px);
+	padding: 5px;
+	font-size: 20px;
+	overflow: hidden;
+}
+
+.mng-cont {
+	position: relative;
+	top: -6px;
+	left: 61px;
+	height: calc(100% - 20px);
+	width: 39px;
+	padding: 10px 5px;
+	border: 1px solid black;
+	background-color: white;
+	float: right;
+}
+
+.mng-btn {
+	height: 40px;
+	width: 39px;
+	margin: 16px 0px;
+}
+
+.e:hover {
+	background-color: lightgreen;
+}
+
+.d:hover {
+	background-color: crimson;
+}
